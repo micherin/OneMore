@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    tools:context="micherin.gp.onemore.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true">
+
+        <ImageView android:src="@drawable/title"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="반갑습니다"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="24dp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="13dp"
+            android:layout_gravity="center_horizontal" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnProgramlist"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:text="프로그램 리스트"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnAddProgram"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:text="프로그램 추가"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnLogout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:text="로그아웃"/>
+    </LinearLayout>
+</ScrollView>
